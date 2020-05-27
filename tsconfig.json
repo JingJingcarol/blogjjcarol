@@ -1,0 +1,29 @@
+{
+    
+    "compilerOptions": {
+        "target": "ES5",
+        // 解析非相对模块名的基准目录
+        "baseUrl": ".",
+        // 指定特殊模块的路径
+        "paths": {
+            "@/*": ["*", "src/*"]
+        },
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        // 允许从没有设置默认导出的模块中默认导入
+        // "allowSyntheticDefaultImports": true,
+        // 如何处理模块
+        // "moduleResolution": "node",
+        // 将每个文件作为单独的模块
+        // "isolatedModules": true,
+        // 采用的模块系统
+        // "module": "esnext",
+        "lib":[
+            "es6",
+            "DOM"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

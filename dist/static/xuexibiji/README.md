@@ -1,0 +1,133 @@
+# 学习笔记
+
+## 介绍
+
+这里仅记录 个人 在 前端学习过程中 的 笔记总结、随时随想、demo练习等
+
+## 目录
+
+- 安全防护
+  - [从输入URL到页面加载的过程](/安全防护/从输入URL到页面加载的过程.md)
+  - [关于http](/安全防护/关于http.md)
+  - [http缓存](/安全防护/http缓存.md)
+  - [tcp三次握手四次分手](/安全防护/tcp三次握手四次分手.md)
+  - [常见web漏洞](/安全防护/XSS.md)
+- 工程化
+  - [/webpack/Loader和Plugin](/工程化/webpack/Loader和Plugin.md)
+  - [/webpack/webpack版本进化](/工程化/webpack/webpack版本进化.md)
+  - [/webpack/webpack常用包](/工程化/webpack/常用包.md)
+  - [tree shaking](/工程化/treeshaking.md)
+  - [SSR](/工程化/SSR.md)
+  - [BFF](/工程化/BFF.md)
+  - [同构](/工程化/同构.md)
+  - cli
+  - [CI/CD](/工程化/CICD.md)
+- 性能优化
+  - [FP，FCP，FMP](/性能优化/FP.md)
+  - [prefetch，preload，preconnect](/性能优化/prefetch.md)
+  - [内存泄漏](/性能优化/内存泄漏.md)
+  - [性能监控](/性能优化/性能监控.md)
+  - [service worker](/性能优化/serviceWorker.md)
+  - [web worker](/性能优化/webWorker.md)
+  - [WebSocket](/性能优化/WebSocket.md)
+- 面向对象
+  - [SOLID原则](/面向对象/SOLID.md)
+  - [private，projected，public](/面向对象/public.md)
+  - [抽象类与接口](/面向对象/抽象类与接口.md)
+- 基础js
+  - [基本array操作](/基础js/基本array操作.md)
+  - [判断变量类型](/基础js/判断变量类型.md)
+  - [eval vs newFunction](/基础js/evalVsNewFunction.md)
+  - [innerHtml性能优化](/基础js/innerHtml性能优化.md)
+  - [基本包装类型](/基础js/包装器.md)
+  - [关于 Symbol](/基础js/关于Symbol.md)
+  - [Set、Map、WeakSet 和 WeakMap](/基础js/Set、Map、WeakSet和WeakMap.md)
+  - [比较typeof、instanceof、Object.prototype.toString.call](/基础js/typeof.md)
+  - [bigint](/基础js/bigint.md)
+  - [关于bind、call、apply](/基础js/关于bindCallApply.md)
+  - [微任务和宏任务](/基础js/微任务和宏任务.md)
+  - 原型链
+  - [继承方法](/基础js/继承方法.md)
+  - 一个函数的定义和执行过程
+  - [比较for、forEach、for...in迭代和for...of](/基础js/for.md)
+  - [es6 模块化、common.js、Cmd、Amd](/基础js/模块化.md)
+  - [浅拷贝与深拷贝](/基础js/浅拷贝与深拷贝.md)
+  - [强引用与弱引用](/基础js/强引用与弱引用.md)
+  - [关于 Reflect](/基础js/关于Reflect.md)
+  - [尾递归优化](/基础js/尾递归优化.md)
+  - [关于 AST](/基础js/AST.md)
+  - [高阶函数](/基础js/高阶函数.md)
+  - [纯函数，偏函数](/基础js/纯函数.md)
+  - [柯里化](/基础js/柯里化.md)
+  - [Object.defineProperty 与 proxy](/基础js/proxy.md)
+  - [严格模式](/基础js/严格模式.md)
+  - [13种proxy模式](/基础js/proxy模式.md)
+- typescript
+  - [void、null、undefined](/typescript/void.md)
+  - [泛型](/typescript/泛型.md)
+  - [装饰器](/typescript/装饰器.md)
+- 测试
+  - [单元测试，接口测试，e2e测试，ui测试](/测试/测试.md)
+- 框架整理
+  - 前端框架的发展过程
+  - [/vue/源码分析](/框架整理/vue/数据响应式.md)
+  - /vue/生命周期
+  - /vue/dom diff
+  - /react/函数组件与类组件
+  - redux
+  - rxjs
+- 设计模式
+  - [工厂模式](/设计模式/工厂模式.md)
+  - [观察者模式](/设计模式/观察者模式.md)
+  - [发布订阅模式](/设计模式/发布订阅模式.md)
+  - IOC 面向切面
+  - pm2 集群
+  - MVC 与 MVVM
+- 计算机基础
+  - [ArrayList和LinkedList区别](/计算机基础/ArrayList和LinkedList区别.md)
+  - [生成器 迭代器](/计算机基础/生成器和迭代器.md)
+  - OSI七层模型以及tcp,ip四层模型
+  - tcp和udp
+  - [进程和线程](/计算机基础/进程和线程.md)
+  - [沙盒模型](/计算机基础/沙盒模型.md)
+  - [Bitmap](/计算机基础/Bitmap.md)
+  - [get和post的区别](/计算机基础/get和post的区别.md)
+  - [HTTP协议的Keep-Alive](/计算机基础/HTTP协议的Keep-Alive.md)
+  - 什么是ui阻塞，怎么消除
+  - [元编程](/计算机基础/元编程.md)
+  - [LAAS，PAAS，SAAS，FAAS](/计算机基础/SAAS.md)
+
+- 操作系统
+  - linux
+  - linux 目录结构
+  - linux 常用命令
+  - ubuntu 网络代理设置
+  - docker基本概念与用法
+- 算法基础
+  - [上台阶问题](/算法基础/上台阶问题.md)
+  - [64匹马，取前4，最优算法](/算法基础/64匹马.md)
+- css
+  - [getComputedStyle](/css/getComputedStyle.md)
+  - cssPaintWorket:涟漪
+  - cssPsintworket:波浪
+  - css MANO
+  - 矩阵渲染
+  - 样式冲突
+  - css动画 vs js动画
+  - css-next
+  - 预处理器、后处理器
+  - css doodle
+- nginx
+  - [安装 nginx](/nginx/安装nginx.md)
+  - [nginx反向代理与负载均衡](/nginx/nginx反向代理与负载均衡.md)
+- node
+  - koa中间件原理及实现
+  - [event loop（node vs 浏览器）](/node/eventloop.md)
+  - 文件 upload 和 download
+  - require寻找过程
+- 读书笔记
+  - [donot make me think](/读书笔记/donotmakemethink/20200104.md)
+  - [你不知道的js——词法作用域](/读书笔记/你不知道的js/词法作用域.md)
+  - [你不知道的js——函数、块作用域和闭包](/读书笔记/你不知道的js/函数、块作用域和闭包.md)
+  - [你不知道的js——this和对象原型](/读书笔记/你不知道的js/this和对象原型.md)
+  - [你不知道的js——类、原型](/读书笔记/你不知道的js/类.md)
